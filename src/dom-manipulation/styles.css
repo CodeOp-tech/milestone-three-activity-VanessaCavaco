@@ -1,0 +1,21 @@
+/*
+ * 1. Add a style tag that sets a rule for .list-item to make the color red.
+ */
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+form {
+  margin-top: 4em;
+}
+
+label {
+  display: block;
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+}
