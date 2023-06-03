@@ -17,6 +17,9 @@ describe("Binary Tree", () => {
     binaryTree = new BinaryTree(10);
   });
   describe("The getValues method", () => {
+    test("Should function the typeof binaryTree.getValues", () => {
+      expect(typeof binaryTree.getValues).toBe(`function`);
+    });
     test("should return an array of all values in depth first preorder", () => {
       binaryTree.add(4);
       binaryTree.add(14);
@@ -34,9 +37,6 @@ describe("Binary Tree", () => {
       binaryTree.add(2);
       binaryTree.add(12);
       expect(binaryTree.getValues().length).toEqual(7);
-    });
-    test("Should return true if method getValues exist", () => {
-      expect(typeof binaryTree.getValues).toBe(`function`);
     });
   });
 });
