@@ -19,3 +19,6 @@ label {
 input {
   display: block;
 }
+.list-item {
+  color: red;
+}
