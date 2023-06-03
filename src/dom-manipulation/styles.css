@@ -22,3 +22,12 @@ input {
 .list-item {
   color: red;
 }
+
+img {
+  border-radius: 100px;
+  width: 150px;
+  aspect-ratio: 1;
+  border-style: solid;
+  border-color: rgb(107, 106, 106);
+  border-width: 10px;
+}
