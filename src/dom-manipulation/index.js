@@ -14,7 +14,7 @@ function handleSubmit(event) {
   event.preventDefault();
   //cambios en Body
   const body = document.getElementById("body");
-  console.log(body);
+  //console.log(body);
   body.style.fontFamily = "Verdana, sans-serif";
   //obtener los valores de los inputs
   const inRestaurante = document.getElementById("restaurantsInput").value;
@@ -35,7 +35,7 @@ function handleSubmit(event) {
   }
   //adicionar el img antes de <h1>Sobre mi</h1>
   //obtener el h1 about Me
-  const aboutMe = document.getElementById("aboutMe");
+  const aboutMe = document.getElementById("aboutMe"); //no es necesario porque ene una pagina solo debe de haber un H1 - usar el selector por tag y coger el arrya[0]
   //nuevo img
   const img = document.createElement("img");
   //cambiar attibute src
